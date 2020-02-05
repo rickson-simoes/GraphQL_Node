@@ -27,7 +27,7 @@
 
 [![Mutation1](https://raw.githubusercontent.com/rickson-simoes/GraphQL_Node/master/imgs_exemplo/img2.png "img2")](https://raw.githubusercontent.com/rickson-simoes/GraphQL_Node/master/imgs_exemplo/img2.png "img2")
 
-  3 - Query retornando todos usuarios:
+  3 - Query retornando um usuario especifico pelo id:
   `query {
       user(id:" *inserir id do usuario criado* ") {
         name
