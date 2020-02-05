@@ -1,15 +1,12 @@
-const users = [
-  {id: 1, name: "Rickson", email: "rickson.graphql@graphql.com" },
-  {id: 2, name: "Rickson2", email: "rickson.graphql2@graphql2.com" }
-];
+const User = require('./User')
 
 module.exports = {
   Query: {
-    users: () => users,
-    user: () => users[0]
+    users: () => User.find(),
+    user: (_, { id }) => User.findById(id),
   },
 
   Mutation: {
-    createUser: () => users[0]
+    createUser: (_, {name, email}) => User.create({ name, email }),
   }
 };
