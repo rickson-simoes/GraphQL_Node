@@ -5,6 +5,7 @@
 - Executar a imagem docker do mongodb: **docker run --name mongographql -p 27017:27017 -d -t mongo**
 
 - Executar a URL: **http://localhost:4000/**
+<br />
   1 - Query:
    `query {
       users {
