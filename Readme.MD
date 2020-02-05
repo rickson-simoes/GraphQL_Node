@@ -7,7 +7,7 @@
 - Executar a URL: **http://localhost:4000/**
 <br />
 
-  1 - Query:
+  1 - Query retornando todos usuarios:
    `query {
       users {
         id
@@ -18,7 +18,7 @@
 
 [![Query1](https://raw.githubusercontent.com/rickson-simoes/GraphQL_Node/master/imgs_exemplo/img1.png "img1")](https://raw.githubusercontent.com/rickson-simoes/GraphQL_Node/master/imgs_exemplo/img1.png "img1")
 
-  2 - Mutation:
+  2 - Mutation para criação de usuarios:
   `mutation {
       createUser(name: "Rickson", email: "rick123@hotmail.com") {
         id
@@ -27,5 +27,14 @@
 
 [![Mutation1](https://raw.githubusercontent.com/rickson-simoes/GraphQL_Node/master/imgs_exemplo/img2.png "img2")](https://raw.githubusercontent.com/rickson-simoes/GraphQL_Node/master/imgs_exemplo/img2.png "img2")
 
+  3 - Query retornando todos usuarios:
+  `query {
+      user(id:" *inserir id do usuario criado* ") {
+        name
+        email
+      }
+    }
+  }`
 
+[![Query2](https://raw.githubusercontent.com/rickson-simoes/GraphQL_Node/master/imgs_exemplo/img3.png "img3")](https://raw.githubusercontent.com/rickson-simoes/GraphQL_Node/master/imgs_exemplo/img3.png "img3")
 
