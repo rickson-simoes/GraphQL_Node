@@ -14,10 +14,16 @@
       }
     }`
 
+[![Query1](https://raw.githubusercontent.com/rickson-simoes/GraphQL_Node/master/imgs_exemplo/img1.png "img1")](https://raw.githubusercontent.com/rickson-simoes/GraphQL_Node/master/imgs_exemplo/img1.png "img1")
+
   - Mutation:
   `mutation {
       createUser(name: "Rickson", email: "rick123@hotmail.com") {
         id
     }
   }`
+
+[![Mutation1](https://raw.githubusercontent.com/rickson-simoes/GraphQL_Node/master/imgs_exemplo/img2.png "img2")](https://raw.githubusercontent.com/rickson-simoes/GraphQL_Node/master/imgs_exemplo/img2.png "img2")
+
+
 
