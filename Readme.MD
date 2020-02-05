@@ -5,7 +5,7 @@
 - Executar a imagem docker do mongodb: **docker run --name mongographql -p 27017:27017 -d -t mongo**
 
 - Executar a URL: **http://localhost:4000/**
-  - Query:
+  1 - Query:
    `query {
       users {
         id
@@ -16,7 +16,7 @@
 
 [![Query1](https://raw.githubusercontent.com/rickson-simoes/GraphQL_Node/master/imgs_exemplo/img1.png "img1")](https://raw.githubusercontent.com/rickson-simoes/GraphQL_Node/master/imgs_exemplo/img1.png "img1")
 
-  - Mutation:
+  2 - Mutation:
   `mutation {
       createUser(name: "Rickson", email: "rick123@hotmail.com") {
         id
